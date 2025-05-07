@@ -1,5 +1,5 @@
 
-import { download } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
               className="btn-download inline-flex"
               onClick={() => alert("Download iniciado! Obrigado por escolher BaixaTube.")}
             >
-              <download className="w-5 h-5 mr-2" />
+              <Download className="w-5 h-5 mr-2" />
               Download Gratuito
             </a>
             <p className="text-xs text-gray-500 mt-2">Versão: 1.0.0 | Windows 10/11</p>

@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { palette } from 'lucide-react';
+import { Palette } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ThemeShowcase = () => {
@@ -15,7 +15,7 @@ const ThemeShowcase = () => {
         <div className="w-full md:w-1/2 bg-white rounded-xl shadow-lg p-6 relative z-10">
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-lg font-semibold">Troca de Temas</h3>
-            <palette className="text-brand-purple w-5 h-5" />
+            <Palette className="text-brand-purple w-5 h-5" />
           </div>
           <p className="text-gray-700 mb-4">
             Personalize sua experiência escolhendo entre os temas disponíveis com efeitos visuais:
@@ -45,7 +45,7 @@ const ThemeShowcase = () => {
               <h3 className="text-white text-lg font-semibold">BaixaTube</h3>
               <div className="flex gap-2">
                 <div className="w-6 h-6 bg-white/20 rounded flex items-center justify-center">
-                  <palette className="w-4 h-4 text-white" />
+                  <Palette className="w-4 h-4 text-white" />
                 </div>
               </div>
             </div>

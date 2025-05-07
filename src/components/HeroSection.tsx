@@ -1,5 +1,5 @@
 
-import { download } from "lucide-react";
+import { Download, Palette, History } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -15,7 +15,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
               <a href="#download" className="btn-download">
-                <download className="w-5 h-5" />
+                <Download className="w-5 h-5" />
                 Baixar Agora
               </a>
               <a 
@@ -46,10 +46,10 @@ const HeroSection = () => {
                     <h3 className="text-lg font-bold">BaixaTube</h3>
                     <div className="flex gap-2">
                       <div className="w-6 h-6 bg-white/20 rounded flex items-center justify-center">
-                        <palette className="w-4 h-4" />
+                        <Palette className="w-4 h-4" />
                       </div>
                       <div className="w-6 h-6 bg-white/20 rounded flex items-center justify-center">
-                        <history className="w-4 h-4" />
+                        <History className="w-4 h-4" />
                       </div>
                     </div>
                   </div>

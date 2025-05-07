@@ -1,5 +1,5 @@
 
-import { download, palette, history, clock, book } from 'lucide-react';
+import { Download, Palette, History, Clock, Book } from 'lucide-react';
 import ThemeShowcase from './ThemeShowcase';
 
 const FeatureCard = ({ 
@@ -35,27 +35,27 @@ const FeaturesSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           <FeatureCard 
-            icon={download}
+            icon={Download}
             title="Download Fácil"
             description="Baixe vídeos e músicas do YouTube com apenas alguns cliques através da tecnologia yt-dlp."
           />
           <FeatureCard 
-            icon={palette}
+            icon={Palette}
             title="Temas Personalizáveis"
             description="Escolha entre diversos temas com efeitos visuais para personalizar sua experiência."
           />
           <FeatureCard 
-            icon={history}
+            icon={History}
             title="Histórico de Downloads"
             description="Acesse facilmente seu histórico completo de downloads salvos localmente."
           />
           <FeatureCard 
-            icon={clock}
+            icon={Clock}
             title="Cancelamento Rápido"
             description="Cancele downloads em andamento com um único clique quando necessário."
           />
           <FeatureCard 
-            icon={book}
+            icon={Book}
             title="Ajuda Integrada"
             description="Acesse instruções detalhadas através da janela de Ajuda e Sobre integrada."
           />
