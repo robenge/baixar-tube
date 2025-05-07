@@ -31,9 +31,10 @@ const Footer = () => {
               Baixe agora e comece a desfrutar de todos os recursos!
             </p>
             <a 
-              href="#download" 
+              href="https://mega.nz/file/xwkHkS6A#YRn4tQ_-dcDyhAskGSVNpEUuZ7aht8cXAAAAAAAAAAA" 
               className="btn-download inline-flex"
-              onClick={() => alert("Download iniciado! Obrigado por escolher BaixaTube.")}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Download className="w-5 h-5 mr-2" />
               Download Gratuito

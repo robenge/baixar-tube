@@ -14,7 +14,12 @@ const HeroSection = () => {
               Interface moderna com temas personalizáveis, download rápido de vídeos e músicas com tecnologia yt-dlp.
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-              <a href="#download" className="btn-download">
+              <a 
+                href="https://mega.nz/file/xwkHkS6A#YRn4tQ_-dcDyhAskGSVNpEUuZ7aht8cXAAAAAAAAAAA" 
+                className="btn-download"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Download className="w-5 h-5" />
                 Baixar Agora
               </a>
